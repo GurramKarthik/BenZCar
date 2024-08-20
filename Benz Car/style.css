@@ -1,0 +1,98 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url(./assests/CabinetGrotesk-Variable.ttf);
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url(./assests/BespokeStencil-Variable.ttf);
+}
+
+body{
+    width: 100%;
+    font-family: 'font1';
+}
+
+
+.main{
+    width: 100%;
+    position: relative;
+
+}
+
+body{
+    background-color: #ffffff;
+}
+
+#navBar{
+    width: 100%;
+    /* background-color: lightcyan; */
+    font-size: 2vw;
+    padding: 2vh 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1{
+    text-transform: uppercase;
+
+}
+
+
+#Cname{
+    text-align: center;
+    line-height: 2.5vw;
+}
+
+#menu{
+    justify-self: end;
+    position: absolute;
+    right: 2vw;
+}
+
+#heading1{
+    width: 50%;
+    margin-left: 2vw;
+    position: relative;
+    overflow: hidden;
+}
+
+#heading1 h1{
+    font-family: 'font2';
+}
+
+#heading1 h1 span{
+    display: inline-block;
+}
+
+
+#stwheel{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#stwheel img{
+    height: 100%;
+    transform: scale(1.2);
+    filter: drop-shadow(20px 10px 10px #000000bd);
+}
+
+
